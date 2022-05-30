@@ -213,7 +213,7 @@ public class AssessmentActivity extends AppCompatActivity {
                             continue;
                         }
 
-                        questionsLists.add(new QuestionsList(questionBank[randomIndex], "Always", "Often", "Sometimes", "Occasionally", "Never", ""));
+                        questionsLists.add(new QuestionsList(questionBank[randomIndex], "Not Present", "Mild", "Moderate", "Severe", "Extremely Severe", ""));
                         questionBank[randomIndex] = "selected";
                     }
 
